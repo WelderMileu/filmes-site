@@ -1,6 +1,6 @@
-##Templates Parecido com youtube
+## Templates Parecido com youtube
 
-`Pendencias`
+` Pendencias `
 
 - [ ] Passar os videos de forma dinamica
 - [ ] Colocar as informações em em json 
