@@ -27,7 +27,7 @@ const list = [
 
 const listar = document.querySelector("#listar");
 
-list.forEach(elem => {
+list.map(elem => {
 	const validate = () => {
 		switch(elem.star){
 			case 1:
@@ -131,7 +131,7 @@ list.forEach(elem => {
 		}
 	}
 	listar.innerHTML += `
-				<div>
+				<div class="fun" id="${elem.visu}" onClick="addFilm('${elem.src}')">
 					<video width="100" height="100">
 						<source src="${elem.src}" type="video/mp4">
 					</video>

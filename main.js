@@ -33,8 +33,12 @@
 		$("#video").volume = e.currentTarget.value / 100;
 	}
 
+	const addFilm = (elem) => {
+		alert(${elem});
+	}
 
 	$("#pause").addEventListener("click", pause);
 	$("#video").addEventListener("timeupdate", tempo);
+	// $(".fun"). addEventListener("click", addFilm);
 	// $("#vol").addEventListener("change", volume);	
 })();
