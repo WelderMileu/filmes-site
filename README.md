@@ -7,3 +7,4 @@
 	  para serem manipuladas
 - [ ] Arrumar a função do volume
 - [ ] Estilizar o range do volume
+- [ ] Mudar o src do video principal ao clicar no icone selecionado
