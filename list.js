@@ -131,7 +131,7 @@ list.map(elem => {
 		}
 	}
 	listar.innerHTML += `
-				<div class="fun" id="${elem.visu}" onClick="addFilm('${elem.src}')">
+				<div class="fun" id="${elem.visu}">
 					<video width="100" height="100">
 						<source src="${elem.src}" type="video/mp4">
 					</video>
