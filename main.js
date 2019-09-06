@@ -33,7 +33,8 @@
 		$("#video").volume = e.currentTarget.value / 100;
 	}
 
+
 	$("#pause").addEventListener("click", pause);
 	$("#video").addEventListener("timeupdate", tempo);
-	$("#vol").addEventListener("change", volume)
+	// $("#vol").addEventListener("change", volume);	
 })();
